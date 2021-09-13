@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Bus_Seat</string>
+    <string name="app_name">Bus Seat</string>
+    <string name="door">Door</string>
+    <string name="driver">Driver</string>
 </resources>
