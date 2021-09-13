@@ -6,12 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
-        android:text="@string/driver"
+        android:text="Driver"
         android:textColor="@color/black"
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,42 +21,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:text="@string/door"
+        android:text="Door"
         android:textColor="@color/black"
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvDoor" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        app:layout_constraintEnd_toStartOf="@id/recyclerview1"
-        app:layout_constraintTop_toBottomOf="@id/tvDoor" />
-
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="180dp"
-        app:layout_constraintEnd_toStartOf="@id/recyclerview2"
-        app:layout_constraintTop_toBottomOf="@id/tvDoor" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvDoor" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

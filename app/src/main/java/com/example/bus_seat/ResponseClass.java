@@ -1,14 +1,13 @@
 package com.example.bus_seat;
 
+import javax.annotation.Generated;
+
 import com.example.bus_seat.json.JsonMember0Class;
 import com.example.bus_seat.json.JsonMember1Class;
 import com.example.bus_seat.json.JsonMember3Class;
 import com.example.bus_seat.json.JsonMember4Class;
 import com.google.gson.annotations.SerializedName;
-
 import java.io.Serializable;
-
-import javax.annotation.Generated;
 
 @Generated("com.robohorse.robopojogenerator")
 public class ResponseClass implements Serializable {
@@ -58,13 +57,13 @@ public class ResponseClass implements Serializable {
 	}
 
 	@Override
- 	public String toString(){
-		return 
-			"ResponseClass{" + 
-			"0 = '" + jsonMember0 + '\'' + 
-			",1 = '" + jsonMember1 + '\'' + 
-			",3 = '" + jsonMember3 + '\'' + 
-			",4 = '" + jsonMember4 + '\'' + 
-			"}";
-		}
+	public String toString(){
+		return
+				"ResponseClass{" +
+						"0 = '" + jsonMember0 + '\'' +
+						",1 = '" + jsonMember1 + '\'' +
+						",3 = '" + jsonMember3 + '\'' +
+						",4 = '" + jsonMember4 + '\'' +
+						"}";
+	}
 }
